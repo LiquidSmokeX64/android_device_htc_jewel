@@ -32,7 +32,8 @@ TARGET_BOOTLOADER_BOARD_NAME := jewel
 TARGET_BOARD_INFO_FILE ?= device/htc/jewel/board-info.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := jet_defconfig
+TARGET_KERNEL_CONFIG := jewel_defconfig
+TARGET_KERNEL_SOURCE := kernel/htc/msm8960
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/jewel/bluetooth
